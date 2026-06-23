@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PUBG Booster</string>
+    <string name="accessibility_desc">تمكين خدمة التحسين التلقائي لتسريع ألعاب ببجي تلقائياً عند فتحها وإعادة تهيئة النظام فور إغلاق اللعبة.</string>
+</resources>

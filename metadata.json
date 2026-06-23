@@ -1,0 +1,6 @@
+{
+  "name": "PUBG Booster",
+  "description": "Unlock peak performance in PUBG Mobile with advanced system-level optimizations powered by Shizuku.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

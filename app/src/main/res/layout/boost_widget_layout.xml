@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/widget_background"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="start|center_vertical">
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PUBG Booster"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <View
+                android:id="@+id/widget_status_dot"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@android:color/holo_red_light" />
+
+            <TextView
+                android:id="@+id/widget_status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Shizuku Disconnected"
+                android:textColor="#A0A5C0"
+                android:textSize="10sp"
+                android:layout_marginStart="4dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginStart="8dp">
+
+        <TextView
+            android:id="@+id/widget_boost_btn"
+            android:layout_width="64dp"
+            android:layout_height="36dp"
+            android:background="@drawable/button_boost_bg"
+            android:text="BOOST"
+            android:textColor="#00F0FF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/widget_restore_btn"
+            android:layout_width="68dp"
+            android:layout_height="36dp"
+            android:background="@drawable/button_restore_bg"
+            android:text="RESTORE"
+            android:textColor="#FF0055"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"/>
+    </LinearLayout>
+</LinearLayout>
